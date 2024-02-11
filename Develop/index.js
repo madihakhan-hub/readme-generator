@@ -2,7 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const express = require('express');
-const generateREADME = require('./generateREADME');
+const generateREADME = require('./generateMarkdown');
+
 
 // TODO: Create an array of questions for user input
 const questions = [

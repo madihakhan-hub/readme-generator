@@ -45,6 +45,8 @@ ${renderLicenseBadge(license)}
 }
 
 // TODO: Create a function to generate markdown for README
+var date = new Date();
+
 function generateMarkdown(data) {
   return `# ${data.title}
 
