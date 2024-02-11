@@ -48,7 +48,7 @@ ${renderLicenseBadge(license)}
 var date = new Date();
 
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.name}
 
 ${renderLicenseSection(date.license)}
 

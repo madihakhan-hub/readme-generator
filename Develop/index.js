@@ -58,8 +58,8 @@ function writeReadmeFile(content) {
 
 
 function init() {
-    inquirer.prompt(questions).then((answers) => {
-      const readmeContent = generateREADME(answers);
+    inquirer.prompt(questions).then((message) => {
+      const readmeContent = generateREADME(message);
       writeReadmeFile(readmeContent);
     });
   }

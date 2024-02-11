@@ -1,9 +1,9 @@
 function generateREADME(answers) {
     return `
-# ${answers.title}
+# ${answers.name}
 
 ## Description 
-${answers.Description}
+${answers.message}
 `;
 }
 
